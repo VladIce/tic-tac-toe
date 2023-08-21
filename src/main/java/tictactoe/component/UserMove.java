@@ -14,9 +14,11 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
 
-public class ComputerMove {
+import tictactoe.model.GameTable;
+
+public class UserMove {
     public void make(GameTable gameTable) {
     }
 }

@@ -16,6 +16,8 @@
 
 package tictactoe;
 
+import tictactoe.component.*;
+
 public final class Launcher {
     public static void main(String[] args) {
         Game game = new Game(new DataPrinter(),

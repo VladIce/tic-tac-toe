@@ -14,7 +14,14 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
 
-public class GameTable {
+import tictactoe.model.GameTable;
+
+public class DataPrinter {
+    public void printMappingTable() {
+    }
+
+    public void printGameTable(GameTable gameTable) {
+    }
 }

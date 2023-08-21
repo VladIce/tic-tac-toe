@@ -14,12 +14,12 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
 
-public class DataPrinter {
-    public void printMappingTable() {
-    }
+import tictactoe.model.GameTable;
 
-    public void printGameTable(GameTable gameTable) {
+public class DrawVerifier {
+    public boolean isDraw(GameTable gameTable) {
+        return false;
     }
 }
