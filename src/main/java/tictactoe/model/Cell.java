@@ -16,24 +16,22 @@
 
 package tictactoe.model;
 
-public class GameTable {
-    private final char[][] table = {
-            {' ', ' ', ' '},
-            {' ', ' ', ' '},
-            {' ', ' ', ' '}
-    };
+public class Cell {
 
-    public boolean isEmpty(Cell cell) {
-        return table[cell.getRow()][cell.getCol()] == ' ';
+    private final int row;
+    private final int col;
+
+
+    public Cell(int row, int col) {
+        this.row = row;
+        this.col = col;
     }
 
-    public char getSign(Cell cell) {
-        return table[cell.getRow()][cell.getCol()];
+    public int getRow() {
+        return row;
     }
 
-    public void setSigh(Cell cell, char sigh) {
-        table[cell.getRow()][cell.getCol()] = sigh;
+    public int getCol() {
+        return col;
     }
-
-
 }
