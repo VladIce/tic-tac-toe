@@ -1,0 +1,10 @@
+# IntelliJ IDEA
+.idea
+.idea_modules
+*.iml
+*.iws
+*.ipr
+*.eml
+.shelf
+out/
+
