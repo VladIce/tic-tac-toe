@@ -7,4 +7,5 @@
 *.eml
 .shelf
 out/
+target/
 
